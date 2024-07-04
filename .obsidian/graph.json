@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:TimeSeriesAnalysis  ",
+      "color": {
+        "a": 1,
+        "rgb": 16449791
+      }
+    },
+    {
+      "query": "path:LinearAlgebra  ",
+      "color": {
+        "a": 1,
+        "rgb": 16671330
+      }
+    },
+    {
+      "query": "path:StatisticalTheory  ",
+      "color": {
+        "a": 1,
+        "rgb": 454142
+      }
+    },
+    {
+      "query": "path:Analysis  ",
+      "color": {
+        "a": 1,
+        "rgb": 9430415
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.00875863002572,
+  "lineSizeMultiplier": 1.81536483010694,
+  "collapse-forces": true,
+  "centerStrength": 0.441045079193177,
+  "repelStrength": 14.1925003384324,
+  "linkStrength": 1,
+  "linkDistance": 199,
+  "scale": 0.3242333124405646,
+  "close": true
+}

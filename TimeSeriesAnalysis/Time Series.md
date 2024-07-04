@@ -1,0 +1,2 @@
+#timeseriesanlysis 
+A time series is a sequence of [[Random Variable]]s $Y_{t}$ where $t\in \mathbb I$ is an index of an indexset. The indexset may be **continuous** or **discrete** and so may the time series.

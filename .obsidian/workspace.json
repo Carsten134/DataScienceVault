@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "2ff7505b704c378b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f00c49967534bf4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa5812d8471a699f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TimeSeriesAnalysis/Fourier Series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8bbe8bfe667897ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frisch Waugh Lovell theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "7b37e1d8f2fcdabf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6434ef9775326d93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BLUE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a99e854b1d15e04a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0a90c9d7b91f553",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b90e19ace4129b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "11cd20a7146fdba1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b120d4eb9e5b7e73",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff79d89e60234ef1",
+    "type": "split",
+    "children": [
+      {
+        "id": "95111aed73a0951c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "609996eaccb20d20",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "BLUE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ab596a7b3844bc87",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "BLUE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e5e4fcf059dcf04d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d76f6e460b0547f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "BLUE.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6434ef9775326d93",
+  "lastOpenFiles": [
+    "Frisch Waugh Lovell theorem.md",
+    "BLUE.md",
+    "TimeSeriesAnalysis/Fourier Series.md",
+    "TimeSeriesAnalysis/Additive Components Model.md",
+    "TimeSeriesAnalysis/Basis functions of Fourier Series.md",
+    "StatisticalTheory/observations.md",
+    "TimeSeriesAnalysis/weak stationarity.md",
+    "Analysis/Gauß Newton Method.md",
+    "Analysis/Taylor Approximation.md",
+    "TimeSeriesAnalysis/Parametric trend models.md",
+    "TimeSeriesAnalysis/OLS.md",
+    "TimeSeriesAnalysis/Box Cox transformation.md",
+    "TimeSeriesAnalysis/Theoretical autocovariance function.md",
+    "TimeSeriesAnalysis/Empirical autocovariance function.md",
+    "TimeSeriesAnalysis/ACF.md",
+    "TimeSeriesAnalysis/Base angular frequency.md",
+    "TimeSeriesAnalysis/Time Series.md",
+    "StatisticalTheory/Random Variable.md",
+    "StatisticalTheory/measureable.md",
+    "StatisticalTheory/Sample Space.md",
+    "TimeSeriesAnalysis/Base Frequency.md",
+    "TimeSeriesAnalysis/Base Periods.md",
+    "Analysis/Cauchy sequence with L_2 Norm.md",
+    "Analysis",
+    "TimeSeriesAnalysis/Projection Theorem.md",
+    "TimeSeriesAnalysis/Nyquist Frequency.md",
+    "TimeSeriesAnalysis/Multiplicative component model.md",
+    "LinearAlgebra",
+    "StatisticalTheory",
+    "_assets/Pasted image 20240703184815.png",
+    "Untitled.canvas",
+    "Pasted image 20240703172518.png",
+    "_assets/Pasted image 20240703171115.png",
+    "_assets",
+    "TimeSeriesAnalysis"
+  ]
+}
