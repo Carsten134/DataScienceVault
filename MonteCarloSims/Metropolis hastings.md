@@ -1,0 +1,1 @@
+Is a [[psydo random sampling method]] to generate from a density, where it is difficult so sample from (maybe because the inverse of the cdf does not exist). So instead we try to sample from a **proposal distribution** and generate a desired distribution.

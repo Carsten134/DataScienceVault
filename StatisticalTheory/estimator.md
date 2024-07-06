@@ -1,0 +1,1 @@
+Let some sample $\{x_{1},\dots,x_{n}\}$ that follows the [[Random Variable]] $X \sim F(\beta)$ where $\beta$ is a true value that is unknown. An estimator uses the information of the sample to get an estimate of $\beta$, $\hat{\beta}$.

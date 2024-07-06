@@ -58,13 +58,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metropolis hastings.md",
+                "file": "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Taylor",
+                "query": "movi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ff79d89e60234ef1",
@@ -194,7 +196,6 @@
   },
   "active": "11cd20a7146fdba1",
   "lastOpenFiles": [
-    "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
     "StatisticalTheory/stochastical independence.md",
     "StatisticalTheory/almost sure convergence.md",
     "StatisticalTheory/Law of large numbers.md",
