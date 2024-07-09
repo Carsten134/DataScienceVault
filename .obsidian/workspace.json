@@ -6,7 +6,6 @@
       {
         "id": "f00c49967534bf4c",
         "type": "tabs",
-        "dimension": 55.57324840764332,
         "children": [
           {
             "id": "aa5812d8471a699f",
@@ -38,34 +37,130 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StatisticalTheory/Beta-Bernoulli Conjugacy.md",
+                "file": "Linear transformation of t.s..md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "7b37e1d8f2fcdabf",
-        "type": "tabs",
-        "dimension": 44.42675159235669,
-        "children": [
+          },
           {
-            "id": "6434ef9775326d93",
+            "id": "c592c33c79251f49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
+                "file": "Linear transformations of T.S. of infinite length.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e51c073048da661",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Absolutely summable linear filters.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a277158f2819b62f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Causal linear filter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35b18ba6fca78dd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Filter = linear operator.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c83aaa973869112",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "weighted sum of linear filters.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "255e305c7c1d7875",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Convolution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d94a6a41f179e5f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f0242c50888ef5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Finding the inverse of a linear filter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df4e8ce9fe1fd673",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Laurent Series expansion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21faa9cb03ab7e13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "annulus.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -94,7 +189,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "movi",
+                "query": "Convolutio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,13 +206,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ff79d89e60234ef1",
@@ -133,7 +226,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TimeSeriesAnalysis/Fourier Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +242,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TimeSeriesAnalysis/Fourier Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,9 +263,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "TimeSeriesAnalysis/Fourier Series.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -194,34 +283,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11cd20a7146fdba1",
+  "active": "8d94a6a41f179e5f",
   "lastOpenFiles": [
-    "StatisticalTheory/stochastical independence.md",
-    "StatisticalTheory/almost sure convergence.md",
-    "StatisticalTheory/Law of large numbers.md",
-    "StatisticalTheory/Convergence in probability.md",
-    "StatisticalTheory/Convergence in distribution.md",
-    "MonteCarloSims/psydo random sampling method.md",
-    "MonteCarloSims/Monte Carlo Integration.md",
-    "MonteCarloSims/Markov property.md",
-    "MonteCarloSims/LCG RNG.md",
-    "MonteCarloSims/Booststrapping.md",
-    "MonteCarloSims",
-    "Metropolis hastings.md",
-    "Frisch Waugh Lovell theorem.md",
-    "StatisticalTheory/Beta-Bernoulli Conjugacy.md",
-    "TimeSeriesAnalysis/Convergence in Norm.md",
-    "BLUE.md",
+    "Existence of inverse for linear filters.md",
+    "annulus.md",
+    "Finding the inverse of a linear filter.md",
+    "Laurent Series expansion.md",
+    "Convolution.md",
+    "Inverse of linear filter.md",
+    "Characteristic Polynomial.md",
+    "z-transform.md",
+    "Pasted image 20240706215238.png",
+    "weighted sum of linear filters.md",
+    "Linear Filter = linear operator.md",
+    "Causal linear filter.md",
+    "Absolutely summable linear filters.md",
+    "Linear transformations of T.S. of infinite length.md",
+    "Linear transformation of t.s..md",
+    "high and low pass filters.md",
     "TimeSeriesAnalysis/Fourier Series.md",
-    "TimeSeriesAnalysis/Additive Components Model.md",
-    "TimeSeriesAnalysis/Basis functions of Fourier Series.md",
-    "StatisticalTheory/observations.md",
-    "TimeSeriesAnalysis/weak stationarity.md",
-    "Analysis/Gauß Newton Method.md",
-    "Analysis/Taylor Approximation.md",
-    "TimeSeriesAnalysis/Parametric trend models.md",
-    "TimeSeriesAnalysis/OLS.md",
-    "TimeSeriesAnalysis/Box Cox transformation.md",
+    "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
+    "Linear filter.md",
+    "TimeSeriesAnalysis/Moving average.md",
+    "_assets/Pasted image 20240705160607.png",
+    "TimeSeriesAnalysis/smoothing method.md",
+    "TimeSeriesAnalysis/simple exponential smoothing method.md",
+    "TimeSeriesAnalysis/Local Polynomial trend estimation.md",
+    "TimeSeriesAnalysis/Holt's-Winters method.md",
+    "TimeSeriesAnalysis/Holt's linear method.md",
+    "StatisticalTheory/estimator.md",
+    "StatisticalTheory/MSE.md",
+    "MonteCarloSims",
     "Analysis",
     "LinearAlgebra",
     "StatisticalTheory",
