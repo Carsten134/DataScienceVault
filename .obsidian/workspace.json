@@ -6,66 +6,81 @@
       {
         "id": "f00c49967534bf4c",
         "type": "tabs",
-        "dimension": 55.57324840764332,
         "children": [
           {
-            "id": "aa5812d8471a699f",
+            "id": "3eab136b95e66b8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TimeSeriesAnalysis/Fourier Series.md",
+                "file": "Yule Walker Equations.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8bbe8bfe667897ff",
+            "id": "839505297f9eace1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
+                "file": "OLS estimator with autocorrelated shocks.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bf409be0d2bce0b4",
+            "id": "4738f6206ba15247",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StatisticalTheory/Beta-Bernoulli Conjugacy.md",
+                "file": "Invariance set of a linear filter.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "7b37e1d8f2fcdabf",
-        "type": "tabs",
-        "dimension": 44.42675159235669,
-        "children": [
+          },
           {
-            "id": "6434ef9775326d93",
+            "id": "cd43ec9d0ef065cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
+                "file": "Finding kernel with roots of c.p..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f78bc1e4be77ae6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kernel of a linear filter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54d4deae27578c92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
+                "file": "Finding kernel with roots of c.p..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
+                "file": "Finding kernel with roots of c.p..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md"
+                "file": "Finding kernel with roots of c.p..md"
               }
             }
           }
@@ -193,8 +208,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6434ef9775326d93",
+  "active": "cd43ec9d0ef065cb",
   "lastOpenFiles": [
+    "Invariance set of a linear filter.md",
+    "Finding kernel with roots of c.p..md",
+    "Eigenspace of linear filters.md",
+    "Coefficient Comparison.md",
+    "Untitled.md",
+    "Kernel of a linear filter.md",
+    "Yule Walker Equations.md",
+    "OLS estimator with autocorrelated shocks.md",
+    "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
+    "TimeSeriesAnalysis/Fourier Series.md",
+    "TimeSeriesAnalysis/Time Series.md",
+    "TimeSeriesAnalysis/Projection Theorem.md",
+    "Priors used for MCMC Gibbs.md",
+    "Linear transformation of t.s..md",
     "StatisticalTheory/stochastical independence.md",
     "StatisticalTheory/almost sure convergence.md",
     "StatisticalTheory/Law of large numbers.md",
@@ -208,20 +237,6 @@
     "MonteCarloSims",
     "Metropolis hastings.md",
     "Frisch Waugh Lovell theorem.md",
-    "StatisticalTheory/Beta-Bernoulli Conjugacy.md",
-    "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
-    "TimeSeriesAnalysis/Convergence in Norm.md",
-    "BLUE.md",
-    "TimeSeriesAnalysis/Fourier Series.md",
-    "TimeSeriesAnalysis/Additive Components Model.md",
-    "TimeSeriesAnalysis/Basis functions of Fourier Series.md",
-    "StatisticalTheory/observations.md",
-    "TimeSeriesAnalysis/weak stationarity.md",
-    "Analysis/Gauß Newton Method.md",
-    "Analysis/Taylor Approximation.md",
-    "TimeSeriesAnalysis/Parametric trend models.md",
-    "TimeSeriesAnalysis/OLS.md",
-    "TimeSeriesAnalysis/Box Cox transformation.md",
     "Analysis",
     "LinearAlgebra",
     "StatisticalTheory",
