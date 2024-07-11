@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "movi",
+                "query": "Convolutio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ff79d89e60234ef1",

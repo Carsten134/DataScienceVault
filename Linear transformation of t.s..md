@@ -20,3 +20,7 @@ Then it holds that (can be proven by [[induction]]):
 $$
 \Delta^{p+1}m_{t} =0
 $$
+## application in practice
+Apply $\Delta$ until you get a stationary behaving timeseries.
+
+We differentiate between [[high and low pass filters]].
