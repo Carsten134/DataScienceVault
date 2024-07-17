@@ -1,3 +1,4 @@
+#timeseriesanlysis 
 An eigentvalue of a [[Linear filter]] $W$ is given by the property:
 $$
 W(y_{t}) = \lambda y_{t}

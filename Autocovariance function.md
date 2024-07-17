@@ -1,0 +1,1 @@
+A real valued [[mapping]] $\gamma: \mathbb{Z}\to \mathbb{R}$ is the autocovariance function of a [[weak stationarity]] [[Time Series]], iff $\gamma$ is [[non-negative definite]].

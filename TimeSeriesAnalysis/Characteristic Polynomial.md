@@ -1,3 +1,4 @@
+#timeseriesanlysis #analysis 
 For finite [[Linear filter]]s $W$ we define the characteristic polynomial like so:
 $$
 \begin{align}

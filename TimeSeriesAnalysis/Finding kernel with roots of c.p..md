@@ -1,4 +1,5 @@
-Let $W$ be a [[Linear filter]] and $p_{W}(z)$ be it's [[characteristic polynomial]]. Then it holds that:
+#timeseriesanlysis 
+Let $W$ be a [[Linear filter]] and $p_{W}(z)$ be it's [[Characteristic Polynomial]]. Then it holds that:
 $$
 p_{W}(\lambda)=0\Longleftrightarrow \{\lambda^{-t}\}_{t\in \mathbb{Z}}\in Ker(W)
 $$

@@ -1,4 +1,5 @@
-Is a way of finding the inverse of a [[Linear filter]]. So let $W$ be a linear filter and $V$ it's inverse (we assume that the inverse exists). We know that the inverse is unique and has the property:
+#analysis #timeseriesanlysis 
+Is a way of finding the [[Inverse of linear filter]]. So let $W$ be a [[Linear filter]] and $V$ it's inverse (we assume that the inverse exists). We know that the inverse is unique and has the property:
 $$
 W\circ V = 1
 $$

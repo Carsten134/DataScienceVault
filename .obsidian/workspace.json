@@ -4,71 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "f00c49967534bf4c",
+        "id": "2623a59174f09d89",
         "type": "tabs",
         "children": [
           {
-            "id": "3eab136b95e66b8a",
+            "id": "da0e769b303512dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yule Walker Equations.md",
+                "file": "Theorem of Brockwell and Davis.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "839505297f9eace1",
+            "id": "5dc415de5015831c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OLS estimator with autocorrelated shocks.md",
+                "file": "Estimating the mean of a time series.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4738f6206ba15247",
+            "id": "8c89fb4f5c5d56c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Invariance set of a linear filter.md",
+                "file": "Ergodicity.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cd43ec9d0ef065cb",
+            "id": "d33fc1482cd6b256",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finding kernel with roots of c.p..md",
+                "file": "Martingale.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8f78bc1e4be77ae6",
+            "id": "d2c5b63e244fcbed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kernel of a linear filter.md",
+                "file": "Martingale difference sequence.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "54d4deae27578c92",
+            "id": "69ab74780779d9f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Convolutio",
+                "query": "Brockwell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finding kernel with roots of c.p..md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Finding kernel with roots of c.p..md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Finding kernel with roots of c.p..md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -207,35 +208,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd43ec9d0ef065cb",
+  "active": "69ab74780779d9f1",
   "lastOpenFiles": [
-    "Invariance set of a linear filter.md",
-    "Finding kernel with roots of c.p..md",
-    "Eigenspace of linear filters.md",
-    "Coefficient Comparison.md",
+    "Martingale difference sequence.md",
     "Untitled.md",
-    "Kernel of a linear filter.md",
-    "Yule Walker Equations.md",
-    "OLS estimator with autocorrelated shocks.md",
-    "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
-    "TimeSeriesAnalysis/Fourier Series.md",
+    "Martingale.md",
+    "Ergodicity.md",
+    "Estimating the mean of a time series.md",
+    "Pasted image 20240711185509.png",
+    "Pasted image 20240711185407.png",
+    "Theorem of Brockwell and Davis.md",
     "TimeSeriesAnalysis/Time Series.md",
-    "TimeSeriesAnalysis/Projection Theorem.md",
-    "Priors used for MCMC Gibbs.md",
-    "Linear transformation of t.s..md",
-    "StatisticalTheory/stochastical independence.md",
-    "StatisticalTheory/almost sure convergence.md",
-    "StatisticalTheory/Law of large numbers.md",
-    "StatisticalTheory/Convergence in probability.md",
-    "StatisticalTheory/Convergence in distribution.md",
-    "MonteCarloSims/psydo random sampling method.md",
-    "MonteCarloSims/Monte Carlo Integration.md",
-    "MonteCarloSims/Markov property.md",
-    "MonteCarloSims/LCG RNG.md",
-    "MonteCarloSims/Booststrapping.md",
+    "Wold decomposition.md",
+    "AR(p).md",
+    "Deterministic time series.md",
+    "Linear Process.md",
+    "strict stationarity.md",
+    "strict stationarity implies weak stationarity.md",
+    "Autocovariance function.md",
+    "Non-negative definite function.md",
+    "non-negative definite.md",
+    "White noise.md",
+    "OLS estimator with autocorrelated shocks.md",
+    "Linear filter.md",
+    "_assets/Pasted image 20240711153346.png",
+    "Kolmogorov's consistency theorem.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Finite-dimensional distribution for timeseries.md",
+    "AR(1) process.md",
+    "Hamiltonian Monte Carlo.md",
+    "TimeSeriesAnalysis/Yule Walker Equations.md",
+    "_assets/Pasted image 20240706215238.png",
     "MonteCarloSims",
-    "Metropolis hastings.md",
-    "Frisch Waugh Lovell theorem.md",
     "Analysis",
     "LinearAlgebra",
     "StatisticalTheory",

@@ -1,3 +1,4 @@
+#montecarlo 
 This is for the R-Code provided to us by the lecturer.
 The model (or at least that is what i assume):
 $$
