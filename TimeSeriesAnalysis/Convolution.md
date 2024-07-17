@@ -1,3 +1,4 @@
+#timeseriesanlysis 
 Let $W,\tilde{W}$ be [[Linear filter]]s. Then we notate the successive application (**convolution**) of these filters as:
 $$
 V =W\tilde{W} = W \circ \tilde{W}

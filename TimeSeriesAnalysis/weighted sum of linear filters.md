@@ -1,3 +1,4 @@
+#timeseriesanlysis 
 Let $W$ and $V$ be a [[Linear filter]]. Then we define:
 $$
 U: = cV+dW

@@ -1,3 +1,4 @@
+#timeseriesanlysis 
 We define a **finite** linear transformation $W$ of a realized [[Time Series]] $y_{t}$ as:
 $$
 W y_{t} = \sum_{j=-k}^Iw_{j}y_{t-j} = \sum_{j=-k}^Iw_{j}B^jy_{t}

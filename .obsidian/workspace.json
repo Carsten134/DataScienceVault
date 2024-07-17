@@ -32,97 +32,11 @@
             }
           },
           {
-            "id": "bf409be0d2bce0b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear transformation of t.s..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c592c33c79251f49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear transformations of T.S. of infinite length.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e51c073048da661",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Absolutely summable linear filters.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a277158f2819b62f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Causal linear filter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35b18ba6fca78dd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear Filter = linear operator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c83aaa973869112",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "weighted sum of linear filters.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "255e305c7c1d7875",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convolution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8d94a6a41f179e5f",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20240706215238.png"
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -136,33 +50,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "df4e8ce9fe1fd673",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Laurent Series expansion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21faa9cb03ab7e13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "annulus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240706215238.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240706215238.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Pasted image 20240706215238.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -291,34 +177,38 @@
   },
   "active": "8d94a6a41f179e5f",
   "lastOpenFiles": [
-    "Pasted image 20240715182333.png",
     "Pasted image 20240706215238.png",
-    "Analysis/Gauß Newton Method.md",
-    "Beta regression.md",
-    "Existence of inverse for linear filters.md",
-    "annulus.md",
-    "Finding the inverse of a linear filter.md",
-    "Laurent Series expansion.md",
-    "Convolution.md",
-    "Inverse of linear filter.md",
-    "Characteristic Polynomial.md",
-    "z-transform.md",
-    "weighted sum of linear filters.md",
-    "Linear Filter = linear operator.md",
-    "Causal linear filter.md",
-    "Absolutely summable linear filters.md",
-    "Linear transformations of T.S. of infinite length.md",
-    "Linear transformation of t.s..md",
-    "high and low pass filters.md",
-    "TimeSeriesAnalysis/Fourier Series.md",
-    "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
-    "Linear filter.md",
-    "TimeSeriesAnalysis/Moving average.md",
+    "strict stationarity.md",
+    "strict stationarity implies weak stationarity.md",
+    "non-negative definite.md",
+    "_assets/Pasted image 20240711153346.png",
+    "_assets/Pasted image 20240706215238.png",
+    "Wold decomposition.md",
+    "White noise.md",
+    "Untitled.md",
+    "TimeSeriesAnalysis/z-transform.md",
+    "TimeSeriesAnalysis/weighted sum of linear filters.md",
+    "TimeSeriesAnalysis/high and low pass filters.md",
+    "TimeSeriesAnalysis/Yule Walker Equations.md",
+    "TimeSeriesAnalysis/Linear transformations of T.S. of infinite length.md",
+    "TimeSeriesAnalysis/Linear transformation of t.s..md",
+    "TimeSeriesAnalysis/Linear Filter = linear operator.md",
+    "TimeSeriesAnalysis/Lag Operator.md",
+    "TimeSeriesAnalysis/Kernel of a linear filter.md",
+    "TimeSeriesAnalysis/Inverse of linear filter.md",
+    "TimeSeriesAnalysis/Invariance set of a linear filter.md",
+    "TimeSeriesAnalysis/Finding kernel with roots of c.p..md",
+    "TimeSeriesAnalysis/Existence of inverse for linear filters.md",
+    "TimeSeriesAnalysis/Eigenspace of linear filters.md",
+    "TimeSeriesAnalysis/Convolution.md",
+    "TimeSeriesAnalysis/Coefficient Comparison.md",
+    "TimeSeriesAnalysis/Characteristic Polynomial.md",
+    "TimeSeriesAnalysis/Causal linear filter.md",
+    "TimeSeriesAnalysis/Absolutely summable linear filters.md",
+    "Pasted image 20240711185509.png",
+    "Pasted image 20240711185407.png",
+    "Pasted image 20240715182333.png",
     "_assets/Pasted image 20240705160607.png",
-    "TimeSeriesAnalysis/smoothing method.md",
-    "TimeSeriesAnalysis/simple exponential smoothing method.md",
-    "TimeSeriesAnalysis/Local Polynomial trend estimation.md",
-    "TimeSeriesAnalysis/Holt's-Winters method.md",
     "MonteCarloSims",
     "Analysis",
     "LinearAlgebra",

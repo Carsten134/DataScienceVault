@@ -1,1 +1,2 @@
+#timeseriesanlysis 
 If we consider a never ending realized  [[Time Series]] $y_{t}\in \mathbb{R}^{\mathbb{Z}}$ and apply a linear filter to that is is nothing but a [[linear combination]] of two vectors in $\mathbb{R}^{\mathbb{Z}}$. Because you can easily prove, that $\mathbb{R}^ {\mathbb{Z}}$ is [[Vector space]] over the field $\mathbb{R}$, we know, that this operation is possible.
