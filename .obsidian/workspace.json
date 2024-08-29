@@ -4,107 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "2623a59174f09d89",
+        "id": "f00c49967534bf4c",
         "type": "tabs",
         "children": [
           {
-            "id": "da0e769b303512dd",
+            "id": "aa5812d8471a699f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TimeSeriesAnalysis/Theorem of Brockwell and Davis.md",
+                "file": "TimeSeriesAnalysis/Fourier Series.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5dc415de5015831c",
+            "id": "8bbe8bfe667897ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TimeSeriesAnalysis/Estimating the mean of a time series.md",
+                "file": "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8c89fb4f5c5d56c9",
+            "id": "8d94a6a41f179e5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TimeSeriesAnalysis/Ergodicity.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "d33fc1482cd6b256",
+            "id": "3f0242c50888ef5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TimeSeriesAnalysis/Martingale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2c5b63e244fcbed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TimeSeriesAnalysis/Martingale difference sequence.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69ab74780779d9f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TimeSeriesAnalysis/Estimator for exponential smoothing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70373576ce83a968",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exam coaching/Exam Winterterm 2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f7cc594d046702b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exam 2 S.T. WT 22, 23.md",
+                "file": "Finding the inverse of a linear filter.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Brockwell",
+                "query": "Convolutio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exam 2 S.T. WT 22, 23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +135,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exam 2 S.T. WT 22, 23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,9 +156,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Exam 2 S.T. WT 22, 23.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -232,39 +176,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f7cc594d046702b",
+  "active": "8d94a6a41f179e5f",
   "lastOpenFiles": [
-    "Exam coaching/Exam Winterterm 2022.md",
-    "Exam 2 S.T. WT 22, 23.md",
-    "TimeSeriesAnalysis/White noise.md",
-    "TimeSeriesAnalysis/strict stationarity.md",
-    "TimeSeriesAnalysis/OLS estimator with autocorrelated shocks.md",
-    "_assets/Pasted image 20240711185407.png",
-    "LinearAlgebra/Non-negative definite function.md",
-    "LinearAlgebra/non-negative definite.md",
-    "StatisticalTheory/BLUE.md",
-    "TimeSeriesAnalysis/Martingale difference sequence.md",
-    "TimeSeriesAnalysis/Linear filter.md",
-    "MonteCarloSims/Hamiltonian Monte Carlo.md",
-    "TimeSeriesAnalysis/Finding the inverse of a linear filter.md",
-    "TimeSeriesAnalysis/Ergodicity.md",
-    "TimeSeriesAnalysis/Deterministic time series.md",
-    "TimeSeriesAnalysis/AR(1) process.md",
-    "Exam coaching",
-    "TimeSeriesAnalysis/Estimator for exponential smoothing.md",
-    "TimeSeriesAnalysis/Martingale.md",
-    "TimeSeriesAnalysis/Estimating the mean of a time series.md",
-    "_assets/Pasted image 20240711185509.png",
-    "TimeSeriesAnalysis/Theorem of Brockwell and Davis.md",
-    "TimeSeriesAnalysis/Time Series.md",
-    "TimeSeriesAnalysis/Wold decomposition.md",
-    "TimeSeriesAnalysis/AR(p).md",
-    "TimeSeriesAnalysis/Linear Process.md",
-    "TimeSeriesAnalysis/strict stationarity implies weak stationarity.md",
-    "TimeSeriesAnalysis/Autocovariance function.md",
+    "Pasted image 20240706215238.png",
+    "strict stationarity.md",
+    "strict stationarity implies weak stationarity.md",
+    "non-negative definite.md",
     "_assets/Pasted image 20240711153346.png",
-    "TimeSeriesAnalysis/Kolmogorov's consistency theorem.md",
     "_assets/Pasted image 20240706215238.png",
+    "Wold decomposition.md",
+    "White noise.md",
+    "Untitled.md",
+    "TimeSeriesAnalysis/z-transform.md",
+    "TimeSeriesAnalysis/weighted sum of linear filters.md",
+    "TimeSeriesAnalysis/high and low pass filters.md",
+    "TimeSeriesAnalysis/Yule Walker Equations.md",
+    "TimeSeriesAnalysis/Linear transformations of T.S. of infinite length.md",
+    "TimeSeriesAnalysis/Linear transformation of t.s..md",
+    "TimeSeriesAnalysis/Linear Filter = linear operator.md",
+    "TimeSeriesAnalysis/Lag Operator.md",
+    "TimeSeriesAnalysis/Kernel of a linear filter.md",
+    "TimeSeriesAnalysis/Inverse of linear filter.md",
+    "TimeSeriesAnalysis/Invariance set of a linear filter.md",
+    "TimeSeriesAnalysis/Finding kernel with roots of c.p..md",
+    "TimeSeriesAnalysis/Existence of inverse for linear filters.md",
+    "TimeSeriesAnalysis/Eigenspace of linear filters.md",
+    "TimeSeriesAnalysis/Convolution.md",
+    "TimeSeriesAnalysis/Coefficient Comparison.md",
+    "TimeSeriesAnalysis/Characteristic Polynomial.md",
+    "TimeSeriesAnalysis/Causal linear filter.md",
+    "TimeSeriesAnalysis/Absolutely summable linear filters.md",
+    "Pasted image 20240711185509.png",
+    "Pasted image 20240711185407.png",
+    "Pasted image 20240715182333.png",
+    "_assets/Pasted image 20240705160607.png",
     "MonteCarloSims",
     "Analysis",
     "LinearAlgebra",
