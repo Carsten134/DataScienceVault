@@ -47,7 +47,7 @@ $$
 \begin{align}
 \Theta &= [0,1] \\
 \mathscr X &= \{0,\dots,k\}^n = \{0,\dots,k\} \\
-D &= \{\delta: \mathscr X \to [0,1]\} \\
+D &= \Theta \\
 L(\theta, \delta) &= \frac{(\theta-d)^2}{\theta(1-\theta)}
 \end{align}
 $$
@@ -73,7 +73,7 @@ From this follows the first order condition:
 $$
 \begin{align}
 0&= B'(\delta, \pi)  \\
-&= \int_{0}^1 \frac{1}{\theta(1-\theta)}\sum_{i=0}^k 2(\theta-\delta)P(X_{1} =i)d\theta
+&= -\int_{0}^1 \frac{2}{\theta(1-\theta)}\sum_{i=0}^k (\theta-\delta)P(X_{1} =i)d\theta
 \end{align}
 $$
 **d)**
@@ -85,9 +85,13 @@ $$
 **a)**
 $$
 \begin{align}
-\Theta &= \{0,1\} \\
+\Theta &= \mathbb{R}_{+} \\
 \mathscr X &= \mathbb{R}^n \\
-D &= \{\delta:\mathscr X \to \{0,1\}\} \\
+D &= \{\delta_{1}, \delta_{0}\} = \begin{cases}
+H_{0} \text{ is true} \\
+H_{1} \text{ is true}
+\end{cases}  \\
+
 L &= \text{0-1 loss}
 \end{align}
 $$
@@ -122,5 +126,19 @@ $$
 \begin{align}
 \lambda(X) &= \frac{\prod_{i=1}^n f(x_{i}|0, 4)}{\prod_{i=1}^nf(x_{i}|\bar{X}_{n}, 4)} \\
 &= \frac{\exp\left( -\frac{1}{2\sigma ^2} \sum_{i=1}^n x_{i}^2\right)}{\exp\left( -\frac{1}{2\sigma^2}\sum_{i=1}^n(x_{i}-\bar{x}_{n})^2 \right)}
+\end{align}
+$$
+
+And  applying the transformation:
+$$
+\begin{align}
+-2 \ln\lambda(X) &= -2\left( -\frac{1}{2\sigma^2}\sum_{i=1}^n x_{i}^2 + \frac{1}{2\sigma^2} \sum_{i=1}^n (x_{i}-\bar{x}_{n})^2 \right) \\
+&= \frac{1}{\sigma^2}\left( \sum_{i=1}^n x_{i}^2 - \sum_{i=1}^nx_{i}^2+2\bar{x}_{n}\sum_{i=1}^nx_{i}-n \bar{x}_{n} \right) \\
+&= \frac{1}{\sigma^2}\left( 2n \bar{x}_{n}^2-n \bar{x}_{n}^2 \right) \\
+&=  \frac{n\bar{x}_{n}^2}{\sigma ^2} \\
+&=  \frac{n\left( \frac{1}{n^2}\left( \sum_{i=1}^n x_{i}  \right)^2\right) }{\sigma^2} \\
+&= \frac{\left( \sum_{i=1}^nx_{i} \right)^2}{n\sigma ^2} \\
+&= \left( \frac{\sum_{i=1}^nx_{i}}{\sqrt{ n }\sigma}\right)^2 \\
+&\to \mathcal X_{1}^2   \hspace{1em} \text{lindeberg levy clt}
 \end{align}
 $$
