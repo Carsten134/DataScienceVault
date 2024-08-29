@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theorem of Brockwell and Davis.md",
+                "file": "TimeSeriesAnalysis/Theorem of Brockwell and Davis.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estimating the mean of a time series.md",
+                "file": "TimeSeriesAnalysis/Estimating the mean of a time series.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ergodicity.md",
+                "file": "TimeSeriesAnalysis/Ergodicity.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Martingale.md",
+                "file": "TimeSeriesAnalysis/Martingale.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Martingale difference sequence.md",
+                "file": "TimeSeriesAnalysis/Martingale difference sequence.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,14 +73,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "TimeSeriesAnalysis/Estimator for exponential smoothing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70373576ce83a968",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exam coaching/Exam Winterterm 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f7cc594d046702b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exam 2 S.T. WT 22, 23.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -126,12 +150,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ff79d89e60234ef1",
@@ -147,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Exam 2 S.T. WT 22, 23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Exam 2 S.T. WT 22, 23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Exam 2 S.T. WT 22, 23.md"
               }
             }
           }
@@ -208,37 +232,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69ab74780779d9f1",
+  "active": "1f7cc594d046702b",
   "lastOpenFiles": [
-    "Martingale difference sequence.md",
-    "Untitled.md",
-    "Martingale.md",
-    "Ergodicity.md",
-    "Estimating the mean of a time series.md",
-    "Pasted image 20240711185509.png",
-    "Pasted image 20240711185407.png",
-    "Theorem of Brockwell and Davis.md",
+    "Exam coaching/Exam Winterterm 2022.md",
+    "Exam 2 S.T. WT 22, 23.md",
+    "TimeSeriesAnalysis/White noise.md",
+    "TimeSeriesAnalysis/strict stationarity.md",
+    "TimeSeriesAnalysis/OLS estimator with autocorrelated shocks.md",
+    "_assets/Pasted image 20240711185407.png",
+    "LinearAlgebra/Non-negative definite function.md",
+    "LinearAlgebra/non-negative definite.md",
+    "StatisticalTheory/BLUE.md",
+    "TimeSeriesAnalysis/Martingale difference sequence.md",
+    "TimeSeriesAnalysis/Linear filter.md",
+    "MonteCarloSims/Hamiltonian Monte Carlo.md",
+    "TimeSeriesAnalysis/Finding the inverse of a linear filter.md",
+    "TimeSeriesAnalysis/Ergodicity.md",
+    "TimeSeriesAnalysis/Deterministic time series.md",
+    "TimeSeriesAnalysis/AR(1) process.md",
+    "Exam coaching",
+    "TimeSeriesAnalysis/Estimator for exponential smoothing.md",
+    "TimeSeriesAnalysis/Martingale.md",
+    "TimeSeriesAnalysis/Estimating the mean of a time series.md",
+    "_assets/Pasted image 20240711185509.png",
+    "TimeSeriesAnalysis/Theorem of Brockwell and Davis.md",
     "TimeSeriesAnalysis/Time Series.md",
-    "Wold decomposition.md",
-    "AR(p).md",
-    "Deterministic time series.md",
-    "Linear Process.md",
-    "strict stationarity.md",
-    "strict stationarity implies weak stationarity.md",
-    "Autocovariance function.md",
-    "Non-negative definite function.md",
-    "non-negative definite.md",
-    "White noise.md",
-    "OLS estimator with autocorrelated shocks.md",
-    "Linear filter.md",
+    "TimeSeriesAnalysis/Wold decomposition.md",
+    "TimeSeriesAnalysis/AR(p).md",
+    "TimeSeriesAnalysis/Linear Process.md",
+    "TimeSeriesAnalysis/strict stationarity implies weak stationarity.md",
+    "TimeSeriesAnalysis/Autocovariance function.md",
     "_assets/Pasted image 20240711153346.png",
-    "Kolmogorov's consistency theorem.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Finite-dimensional distribution for timeseries.md",
-    "AR(1) process.md",
-    "Hamiltonian Monte Carlo.md",
-    "TimeSeriesAnalysis/Yule Walker Equations.md",
+    "TimeSeriesAnalysis/Kolmogorov's consistency theorem.md",
     "_assets/Pasted image 20240706215238.png",
     "MonteCarloSims",
     "Analysis",
