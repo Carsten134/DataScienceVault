@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ST 2023 Exam 1.md",
+                "file": "Exam coaching/ST 2023 Exam 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf77517642f5bede",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exam coaching/ST 2023 Exam 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca1ef0d23f0493fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mock exam day 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ST 2023 Exam 1.md",
+                "file": "Exam coaching/ST 2023 Exam 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ST 2023 Exam 1.md",
+                "file": "Mock exam day 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ST 2023 Exam 1.md",
+                "file": "Mock exam day 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ST 2023 Exam 1.md"
+                "file": "Mock exam day 3.md"
               }
             }
           }
@@ -178,11 +203,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa5812d8471a699f",
+  "active": "ca1ef0d23f0493fd",
   "lastOpenFiles": [
-    "Exam coaching/Exam 1 S.T. WT 22,23.md",
-    "ST 2023 Exam 1.md",
+    "Exam coaching/ST 2023 Exam 1.md",
+    "Mock exam day 3.md",
     "Exam coaching/Exam 2 S.T. WT 22, 23.md",
+    "Exam coaching/Exam 1 S.T. WT 22,23.md",
+    "Exam coaching/Exam 2.md",
     "TimeSeriesAnalysis/Fourier Series.md",
     "_assets/Pasted image 20240711185509.png",
     "_assets/Pasted image 20240711185407.png",
@@ -206,8 +233,6 @@
     "TimeSeriesAnalysis/Autocovariance function.md",
     "TimeSeriesAnalysis/AR(p).md",
     "TimeSeriesAnalysis/AR(1) process.md",
-    "StatisticalTheory/BLUE.md",
-    "MonteCarloSims/Hamiltonian Monte Carlo.md",
     "Exam coaching",
     "StatisticalTheory",
     "Pasted image 20240711185509.png",
