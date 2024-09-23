@@ -4,79 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f00c49967534bf4c",
+        "id": "ef6d415c117734bd",
         "type": "tabs",
         "children": [
           {
-            "id": "aa5812d8471a699f",
+            "id": "298befc5b19b1c9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exam coaching/ST 2023 Exam 1.md",
+                "file": "Blatt 1 Lösung.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cf77517642f5bede",
+            "id": "b353ab95e54a5c3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exam coaching/ST 2023 Exam 1.md",
+                "file": "H.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "ca1ef0d23f0493fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mock exam day 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48c607cbdd50f695",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exam coaching/ST 2023 Exam 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8bbe8bfe667897ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0fd304daeb5f41b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mock exam day 3.md",
+                "file": "H.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mock exam day 3.md",
+                "file": "H.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mock exam day 3.md"
+                "file": "H.md"
               }
             }
           }
@@ -203,12 +159,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca1ef0d23f0493fd",
+  "active": "b353ab95e54a5c3e",
   "lastOpenFiles": [
-    "Exam coaching/ST 2023 Exam 1.md",
-    "Mock exam day 3.md",
+    "Blatt 1 Lösung.md",
+    "H.md",
+    "_assets/Pasted image 20240830164109.png",
+    "Exam coaching/Mockexam day 1 Solution.md",
+    "Exam coaching/Proof cheat-sheet for convergence.md",
+    "_assets/Pasted image 20240916142905.png",
+    "Exam coaching/Exam S.T. summer term 2023.md",
+    "Exam coaching/Exam 2 S.T. WT  23,24.md",
     "Exam coaching/Exam 2 S.T. WT 22, 23.md",
     "Exam coaching/Exam 1 S.T. WT 22,23.md",
+    "Exam coaching/Mockexam day 2 Solution.md",
+    "Exam coaching/Mockexam day 3 Solution.md",
+    "Exam coaching/ST 2023 Exam 1.md",
     "Exam coaching/Exam 2.md",
     "TimeSeriesAnalysis/Fourier Series.md",
     "_assets/Pasted image 20240711185509.png",
@@ -226,13 +191,6 @@
     "TimeSeriesAnalysis/Kolmogorov's consistency theorem.md",
     "TimeSeriesAnalysis/Finite-dimensional distribution for timeseries.md",
     "TimeSeriesAnalysis/Finding the inverse of a linear filter.md",
-    "TimeSeriesAnalysis/Estimator for exponential smoothing.md",
-    "TimeSeriesAnalysis/Estimating the mean of a time series.md",
-    "TimeSeriesAnalysis/Ergodicity.md",
-    "TimeSeriesAnalysis/Deterministic time series.md",
-    "TimeSeriesAnalysis/Autocovariance function.md",
-    "TimeSeriesAnalysis/AR(p).md",
-    "TimeSeriesAnalysis/AR(1) process.md",
     "Exam coaching",
     "StatisticalTheory",
     "Pasted image 20240711185509.png",
@@ -243,8 +201,6 @@
     "Pasted image 20240706215238.png",
     "_assets/Pasted image 20240711153346.png",
     "_assets/Pasted image 20240706215238.png",
-    "Pasted image 20240715182333.png",
-    "_assets/Pasted image 20240705160607.png",
     "MonteCarloSims",
     "Analysis",
     "LinearAlgebra",

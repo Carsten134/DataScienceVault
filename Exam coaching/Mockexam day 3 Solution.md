@@ -1,3 +1,4 @@
+# Problem 1.1
 a)
 Let $X:\Omega_{1} \to \Omega_{2}$ be a mapping with $\mathcal A_{1}$ and $\mathcal A_{2}$ being $\sigma$-Algebras for the respective sets $\Omega_{1}, \Omega_{2}$. Then $X$ is $(\mathcal A_{1}-\mathcal A_{2})$measurable iff:
 $$
@@ -210,3 +211,4 @@ L(\delta,\theta) &= \min\left\{ \left| \frac{c}{\theta}-1 \right|,3  \right\}  \
 \end{align}
 $$
 Because as $\theta\to 0$ it holds that $\frac{c}{\theta}\to \infty$  and therefore $\left| \frac{c}{\theta}-1 \right|\to \infty$
+Therefore any rule is R-incomparable to $\delta_{0}$. $\delta_{0}$ is thus admissible and together with it's equalizer property we have shown, that $\delta_{0}$ is minimax.
