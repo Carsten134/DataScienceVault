@@ -105,7 +105,7 @@ $$
 \begin{align}
  \Theta & = (0,1) \\
 \mathscr X &= \{0,..,k\}^n \\
-D &= \Theta \\
+D &= [0,1]\\
 L &= L(\theta,d) = \min \left\{2, \left( \frac{d-\theta}{\theta} \right)^2 \right\}
 \end{align}
 $$
@@ -119,13 +119,21 @@ Where $R$ is the expected loss under parameter $\theta$.
 $$
 L(\theta, \delta_{0}) =\min \left\{2,\left( -\frac{\theta}{\theta} \right)^2 \right\} = 1 \hspace{1em} \forall \theta\in \Theta
 $$
-If we were to choose another randomized rule, this rule would need to be positive $\delta(X) = c>0$. 
+If we were to choose another randomized rule, this rule would need to be positive $\delta(X) = c>0$ on set $B_{\delta}$. 
 In that case it would hold, that:
 $$
-g(x,\theta)=\left( \frac{c-\theta}{\theta} \right) ^2 = \left( \frac{c}{\theta}-\frac{\theta}{\theta} \right)^2 = \left( \frac{c}{\theta}-1 \right)^2  
+\exists \hat{\theta} \in (0,1): \left( \frac{c-\hat{\theta}}{\hat{\theta}} \right)^2 > 2 \implies  L(\delta, \hat{\theta}) =2 \hspace{1em} \forall x\in B_{\delta}
 $$
-In that case we can choose $\theta \to 0$ and get $g(x,\theta) \to \infty$ and therefore a loss $R(\theta,\delta)=L(\theta, \delta) = 2$. 
-So there is no other rule, with a smaller "worst case" scenario.
+In that case the risk becomes:
+$$
+\begin{align}
+R(\delta, \hat{\theta}) &= \sum_{x\in B_{\delta}^c} L(0,\hat{\theta})f(\vec{x}|\hat{\theta}) + \sum_{x\in B_{\delta}}L(\delta, \hat{\theta})f(\vec{x}|\hat{\theta}) \\
+&= \sum_{x\in B_{\delta}^c}f(\vec{x}|\hat{\theta}) + 2\sum_{x\in B_{\delta}}f(\vec{x}|\hat{\theta}) \\
+&=  \sum_{x\in \mathscr X} f(\vec{x}|\hat{\theta}) + \sum_{x\in B_{\delta}}f(\vec{x}|\hat{\theta}) \\
+&= 1+\sum_{x\in B_{\delta}}f(\vec{x}|\hat{\theta}) \underset {\theta >0}> 1 = R(\delta_{0}, \hat{ \theta})
+\end{align}
+$$
+So we have found a $\theta\in \Theta$ where every rule is R-worse than $\delta_{0}$.
 # Problem 3.3
 **a)**
 $$
