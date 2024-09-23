@@ -126,7 +126,7 @@ $$
 \begin{align}
 P_{p_1}(Y = 0) &= (1-p_{1})^2 = 0.09 \\
 P_{p_{1}}(Y=1) &= 2p_{1}(1-p_{1}) = 2*0.7*0.3 =  0.42 \\
-P_{p_{1}}(Y = 2) &= p_{1}^2 = 0.3^2 = 0.49
+P_{p_{1}}(Y = 2) &= p_{1}^2 = 0.7^2 = 0.49
 \end{align}
 $$
 For the accept and reject probabilities we get:
@@ -161,8 +161,32 @@ $$
 With the $\text{0-}K_{i}$ loss we get:
 $$
 \begin{align}
-\mathbb{E}(L(\delta(y,\{0.7\}, p))) &= P(\text{type 1 error}) 2K_{0}+ P(\text{type 2 error}) K_{0} \\
-&= 0.09*2 *K_{0}+0.51*K_{0}
+\mathbb{E}(L(\delta(y,\{0.7\}, p))) &= \begin{cases}
+P(\text{type 1 error}) 2K_{0} &, \text{ if } p = 0.3 \\
+P(\text{type 2 error}) K_{0} &, \text{ if } p=0.7
+\end{cases}
 \end{align}
 $$
 **e)**
+To calculate the Bayes risk we have to compute:
+$$
+B(\delta, P) =\sum_{i=0}^1R(\delta,p_{i})P(p=p_{i})
+$$
+Now $p$ is a random variable and now the computation changes to:
+$$
+\begin{align}
+\sum_{i=0}^1 R(\delta,p_{i})P(p=p_{i}) &= P(p=p_{0})P(\text{type 1 error})2K_{0} \\
+&+P(p=p_{1})P(\text{type 2 error})K_{0} \\
+&= \frac{2}{3}0.18K_{0}+\frac{1}{3}0.51K_{0}
+\end{align}
+$$
+**f)**
+Make it an equalizer rule:
+$$
+\begin{align}
+R(\delta,p_{0}) &= R(\delta,p_{1}) \\
+\frac{2}{3}0.09cK_{0} &= \frac{1}{3}0.51K_{0} \\
+c &= \frac{1}{2}\frac{0.51}{0.09} \\
+c &= 2.889
+\end{align}
+$$

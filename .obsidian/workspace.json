@@ -1,67 +1,55 @@
 {
   "main": {
-    "id": "2ff7505b704c378b",
+    "id": "303839b14a02c75d",
     "type": "split",
     "children": [
       {
-        "id": "f00c49967534bf4c",
+        "id": "3d4f41b1e5f37d53",
         "type": "tabs",
         "children": [
           {
-            "id": "aa5812d8471a699f",
+            "id": "b3699485d2937045",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exam coaching/ST 2023 Exam 1.md",
+                "file": "ST 2023 Exam 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cf77517642f5bede",
+            "id": "ffaaf8203b8dffef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exam coaching/ST 2023 Exam 1.md",
+                "file": "Exam 1 S.T. WT 23,24.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ca1ef0d23f0493fd",
+            "id": "79177c6b32227200",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mock exam day 3.md",
+                "file": "ST 2023 Exam 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "48c607cbdd50f695",
+            "id": "a2d30cecb6cdbd87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exam coaching/ST 2023 Exam 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8bbe8bfe667897ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TimeSeriesAnalysis/Frisch Waugh Lovell theorem.md",
+                "file": "Exam coaching/Exam S.T. summer term 2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,15 +70,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a99e854b1d15e04a",
+    "id": "42c99f80018e220e",
     "type": "split",
     "children": [
       {
-        "id": "c0a90c9d7b91f553",
+        "id": "85ecac2b21221747",
         "type": "tabs",
         "children": [
           {
-            "id": "0b90e19ace4129b7",
+            "id": "93f3c1a887385320",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -100,7 +88,7 @@
             }
           },
           {
-            "id": "11cd20a7146fdba1",
+            "id": "9b6b4667a4e96b66",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -115,7 +103,7 @@
             }
           },
           {
-            "id": "b120d4eb9e5b7e73",
+            "id": "f7ba7f60302baf55",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -129,20 +117,20 @@
     "width": 300
   },
   "right": {
-    "id": "ff79d89e60234ef1",
+    "id": "6bda0b3a54ea8948",
     "type": "split",
     "children": [
       {
-        "id": "95111aed73a0951c",
+        "id": "0c8841a755c0128c",
         "type": "tabs",
         "children": [
           {
-            "id": "609996eaccb20d20",
+            "id": "035ec6a7d23d658e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mock exam day 3.md",
+                "file": "ST 2023 Exam 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,19 +142,19 @@
             }
           },
           {
-            "id": "ab596a7b3844bc87",
+            "id": "b71399923693ae29",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mock exam day 3.md",
+                "file": "ST 2023 Exam 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e5e4fcf059dcf04d",
+            "id": "41871416d5a92294",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -177,12 +165,12 @@
             }
           },
           {
-            "id": "d76f6e460b0547f8",
+            "id": "19f032b6484e7efd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mock exam day 3.md"
+                "file": "ST 2023 Exam 1.md"
               }
             }
           }
@@ -203,13 +191,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca1ef0d23f0493fd",
+  "active": "48c607cbdd50f695",
   "lastOpenFiles": [
-    "Exam coaching/ST 2023 Exam 1.md",
-    "Mock exam day 3.md",
+    "Exam 1 S.T. WT 23,24.md",
     "Exam coaching/Exam 2 S.T. WT 22, 23.md",
     "Exam coaching/Exam 1 S.T. WT 22,23.md",
-    "Exam coaching/Exam 2.md",
+    "ST 2023 Exam 1.md",
     "TimeSeriesAnalysis/Fourier Series.md",
     "_assets/Pasted image 20240711185509.png",
     "_assets/Pasted image 20240711185407.png",
@@ -233,6 +220,7 @@
     "TimeSeriesAnalysis/Autocovariance function.md",
     "TimeSeriesAnalysis/AR(p).md",
     "TimeSeriesAnalysis/AR(1) process.md",
+    "StatisticalTheory/BLUE.md",
     "Exam coaching",
     "StatisticalTheory",
     "Pasted image 20240711185509.png",
