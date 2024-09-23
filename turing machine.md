@@ -1,0 +1,1 @@
+A turing machine is an abstract model of a modern day computer. It consists of an infinite tuple of $\{0,1\}$ and a cursor, that can move along that tuple to switch the current.

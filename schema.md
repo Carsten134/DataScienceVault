@@ -1,0 +1,1 @@
+A schema is a set of attributes of a [[relation]]. 

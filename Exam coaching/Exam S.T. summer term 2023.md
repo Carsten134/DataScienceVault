@@ -1,4 +1,60 @@
-# Problem 3.7
+# Probability Theory
+## Problem 1.1
+**a)**
+Let $\Omega$ be a sample space and $\mathcal A$ a $\sigma$-Algebra on that sample space. Then the mapping $P: \mathcal{A}\to [0,1]$  is a probability measure iff:
+1. $P(A) \geq 0 \forall A\in \mathcal{A}$
+2. $P(\Omega) = 1$
+3. $P\left( \biguplus_{i=1}^\infty A_{i}  \right) = \sum_{i=1}^\infty P(A_{i})$
+**b)**
+$$
+\begin{align}
+\sigma(\mathcal E) &= \{\emptyset, \Omega, \{1\}, \{2,3,4\}, \{4\}, \{1,2,3\}, \{1,4\}, \{2,3\}\} \\
+\mathcal P(\Omega) &= \{\emptyset, \Omega, \{1\}, \{2,3,4\}, \{4\}, \{1,2,3\}, \{1,4\}, \{2,3\}, \{1,3\},\{1,2\}, \\
+& \{2,4\}, \{3,4\}, \{1,3,4\}, \{1,2,4\}, \{2\},\{3\}\}
+\end{align}
+$$
+**c)**
+So we have been given:
+$$
+P(A) = Q(A) = c \hspace{1em} \forall A\in \mathcal E
+$$
+But also because of the property of probability measures:
+$$
+P(A^c) = Q(A^c) = 1-c \hspace{1em} \forall A\in\mathcal E
+$$
+This means, that (using Lemma 1.2): 
+$$
+P(\{1,4\}) = Q(\{1,4\}) = 2c
+$$
+And also:
+$$
+P(\{1,4\}^c) = Q(\{1,4\}^c) = 1-2c
+$$
+So that fully specifies all the sets and shows:
+$$
+P(A) = Q(A) \hspace{1em} \forall A\in \sigma(\mathcal E)
+$$
+**d)**
+Counterexample with:
+$$
+P(A) = \delta_{2}(A)\hspace{1em} Q(A)= \delta_{3}(A)
+$$
+**e)**
+$$
+\begin{align}
+\sum_{\omega\in \Omega}\omega P(\{\omega\}) &= 5c + 2a +3b
+\end{align}
+$$
+With the side conditions of $2c + a +b = 1$ and $0\leq c<\frac{1}{2}$. This means $b=1$ is the right solution. 
+## Problem 1.2
+**a)**
+We shown this, just wing the proof
+**b)**
+Here it is important to state, that the characteristic functions always exist, while the moment generating function can't always exist because the values can diverge.
+**c)**
+
+# Decision Theory
+## Problem 2.1
 **a)**
 First let's compute the likelihood:
 $$
@@ -38,13 +94,14 @@ We again are going to use bias variance decomposition:
 $$
 \begin{align}
 \mathbb{E}((\theta-\tilde{\theta})^2) &= Var(\tilde{ \theta}) + Bias(\tilde{ \theta})^2 \\
-&= \frac{n}{(n+2)(n+1)^2}\theta^2 + 0 \hspace{1em} \text{unbiased + hint} \\
+&= \frac{(n+1)^2}{n ^2} \frac{n}{(n+2)(n+1)^2}\theta^2 + 0 \hspace{1em} \text{unbiased + hint} \\
+&= \frac{1}{(n+2)n}\theta ^2
 \end{align}
 $$
 For $\bar{ \theta}$ we are going to first show, that it is unbiased:
 $$
 \begin{align}
-\mathbb{E}(\tilde{ \theta}) &= 2 \frac{1}{n} \sum_{i=1}^n \mathbb{E}(X_{i}) \\
+\mathbb{E}(\bar{ \theta}) &= 2 \frac{1}{n} \sum_{i=1}^n \mathbb{E}(X_{i}) \\
 &= 2 \frac{1}{n} n \frac{\theta}{2} = \theta
 \end{align}
 $$
@@ -62,20 +119,19 @@ $$
 Now that we have these two risks we can compare them:
 $$
 \begin{align}
-\frac{n}{(n+2)(n+1)^2}\theta^2 &\leq \frac{\theta^2}{3n} \\
-\frac{1}{(n+2)(n+1)^2} &\leq \frac{1}{3}  \\
-(n+2)(n+1)^2 &\geq 3 \\
-n & \geq 1
+\frac{1}{(n+2)n}\theta^2 &\leq \frac{\theta^2}{3n} \\
+\Longleftrightarrow \frac{1}{n+2} \leq    \frac{1}{3} \\
+\Longleftrightarrow 1 \leq n
 \end{align}
 $$
 This means, that the corrected maximum likelihood estimator is R-better.
-# Problem 3.8
+## Problem 2.2
 **a)**
 The set is not **minimally** essentially complete, because the lower boundary is also essentially complete, we therefore have found a proper subset, that is essentially complete which proves the statement 
 **b)**
-Because the half-circle is also a proper subset and complete. Therefore proving, that the proposed set is only complete but not minimal
+Because the 45 degree line is also a proper subset and complete. Therefore proving, that the proposed set is only complete but not minimal
 **c)**
-The half-circle of the lower border is a minimally complete set, because all rules are admissible meaning, that there is no R-better rule in the decision set for every element of the proposed set of the half-circle
+The 45 degree line of the lower border is a minimally complete set, because all rules are admissible meaning, that there is no R-better rule in the decision set for every element of the proposed set of the half-circle
 **d)**
 No, because the set is convex. If you take two points (or rules) of the set, their line will be above the proposed line (so all the randomized rules are R-worse than the rules from the set)
 **e)**
@@ -94,7 +150,7 @@ y_{1,2} &= 1 \pm \sqrt{ 1-\frac{1}{2}}  \\
 y &= 1-\sqrt{ 0.5 }
 \end{align}
 $$
-# Problem 3.9
+## Problem 2.3
 **a)**
 $$
 \begin{align}

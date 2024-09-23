@@ -1,0 +1,1 @@
+A relational algebra is a set of operations, which can be performed on [[relation]]s and are implemented in [[SQL]] . 

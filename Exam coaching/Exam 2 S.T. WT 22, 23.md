@@ -58,29 +58,45 @@ f(\theta|X) &\propto f(X|\theta)g(\theta) \\
 &= f(X|\theta)
 \end{align}
 $$
-So posterior = likelihood
+So posterior = likelihood because of uniformative prior. But also:
+$$
+\begin{align}
+f(\theta|x_{1}) \propto \theta^{x_{1}} (1-\theta)^{k-x_{1}}1_{[0,1]}(\theta)
+\end{align}
+$$
+You can eliminate the binomial coefficient as well to keep the posterior risk simpler
 **c)**
 First we define the Bayes risk:
 $$
 \begin{align}
-B(\delta, \pi) &= \int_{\mathbb{R}_{+}} R(\delta,\theta)\pi(\theta)d\theta \\
-&= \int_{0}^1 R(\delta,\theta)d\theta \\
-&= \int_{0}^1\sum_{i=0}^kL(\delta,\theta)P(X_{1}=i)d\theta \\
-&= \int_{0}^1 \sum_{i=0}^k\frac{((\theta-\delta)^2)}{\theta(1-\theta)} \binom{k}{i}\theta^i(1-\theta)^{k-i} d\theta
+B(\delta, \pi) &= \int_{0}^1 L(\delta, \theta)f(\theta|x_{1})d\theta \\
+&\propto \int_{0}^1 \frac{(\delta-\theta)^2}{\theta(1-\theta)} \theta^{x_{i}}(1-\theta)^{k-x_{1}} d \theta  \\
+&= \int_{0}^1 (\delta-\theta)^2 \theta^{x_{1}-1}(1-\theta)^{k-x_{1} - 1}d \theta
 \end{align}
 $$
-From this follows the first order condition:
+FOC:
 $$
-\begin{align}
-0&= B'(\delta, \pi)  \\
-&= -\int_{0}^1 \frac{2}{\theta(1-\theta)}\sum_{i=0}^k (\theta-\delta)P(X_{1} =i)d\theta
+\begin{align} \\
+\frac{\partial B(\delta, \pi)}{\partial \delta} &= 0 \\
+\frac{\partial}{\partial \delta} \int_{0}^1 (\delta-\theta)^2 \theta^{x_{i}-1}(1-\theta)^{k-x_{i}-1}d\theta &= 0 \\
+\int_{0}^1 \frac{\partial}{\partial \delta}(\delta-\theta)^2\theta^{x_{1}-1}(1-\theta)^{k-x_{1}-1}d\theta &=  0 \\ \int_{0}^1 2(\delta-\theta)\theta ^{x_{1}-1}(1-\theta)^{k-x_{1}-1}d\theta &= 0 \\
+\delta\int_{0}^1 \theta^{x_{1}-1}(1-\theta)^{k-x_{1}-1}d\theta &= \int_{0}^1\theta^{x_{1}}(1-\theta)^{k-x_{1}-1}d\theta \\
+\delta (x_{1})& = \frac{\int_{0}^1\theta^{x_{1}}(1-\theta)^{k-x_{1}-1}d\theta}{\int_{0}^1\theta^{x_{1}-1}(1-\theta)^{k-x_{1}-1}d\theta}
 \end{align}
 $$
 **d)**
 Is $\delta_{B} = \frac{X_{1}}{k}$ an equalizer rule?
 $$
-L(\delta_{B}, \theta) = \frac{\left( \frac{X_{1}}{k} -\theta\right)^2}{\theta(1-\theta)} 
+\begin{align}
+R(\delta_{B}, \pi) &=\mathbb{E}(L(\delta_{B}, \theta)|\theta) \\
+&= \mathbb{E} \left( \frac{(\delta-\theta)^2}{\theta(1-\theta)} | \theta\right) \\
+&= \frac{1}{\theta(1-\theta)}\mathbb{E}\left( \left( \frac{X_{1}}{k} \right)^2- 2\left( \frac{X_{1}}{k} \right)\theta-\theta ^2|\theta  \right) \\
+&= \frac{1}{\theta(1-\theta)}\left[ \frac{1}{k ^2 }\mathbb{E}(X_{1} ^2|\theta)-\frac{2}{k}\theta E(X_{1}|\theta)+\theta^2 \right]   \\
+&= \frac{1}{\theta(1-\theta)}\left[ \frac{k(\theta(1-\theta))+k^2\theta^2}{k^2}-\frac{2}{k}\theta k\theta+\theta ^2 \right]  \\
+&= \frac{1}{\theta(1-\theta)}\left[ \frac{\theta(1-\theta)}{k}-\theta ^2+\theta ^2 \right] = \frac{1}{k} 
+\end{align}
 $$
+Which is invariant of $\theta$. So it is a equalizer and Bayes rule making it minimax. 
 # Problem 3.6
 **a)**
 $$

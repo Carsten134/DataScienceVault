@@ -105,7 +105,7 @@ $$
 \begin{align}
  \Theta & = (0,1) \\
 \mathscr X &= \{0,..,k\}^n \\
-D &= \{\delta: \mathscr X \to [0,1]\} \\
+D &= \Theta \\
 L &= L(\theta,d) = \min \left\{2, \left( \frac{d-\theta}{\theta} \right)^2 \right\}
 \end{align}
 $$
@@ -138,6 +138,7 @@ L &= \text{0-1 loss}
 $$
 Because $\sigma$ is given, we can assume, that the parameter space is just the space of $\mu$.
 **b)**
+Do we need to show this?
 Assuming iid we can say (because any linear combination of normally distributed random variables is also normal):
 $$
 \bar{X}_{n} = \frac{1}{n}\sum_{i=1}^nX_{i}\sim \mathcal N\left( \mu, \frac{\sigma^2}{n} \right)
@@ -186,7 +187,12 @@ $$
 So the power is dependent on the size of $\mu$. The higher $\mu$ the higher the power.
 **d)**
 $$
-\lambda(\vec{X}) = \frac{\mathcal L(\vec{X}, 0)}{\sup_{\mu\in (0,\infty)}\mathcal L(\vec{X}, \mu)}
+\begin{align}
+\lambda(\vec{X}) &= \frac{\mathcal L(\vec{X}, 0)}{\sup_{\mu\in (0,\infty)}\mathcal L(\vec{X}, \mu)} \\
+&= \frac{\left[ \frac{1}{\sqrt{ 2\pi }\sigma} \right]^n} {\left[ \frac{1}{\sqrt{ 2\pi }\sigma} \right]^n} \exp \left( \frac{1}{2 \sigma ^2}\sum_{i=1}^n x_{i}^2 - \frac{1}{2 \sigma ^2}\sum_{i=1}^n (x_{i}-\bar{x}_{n}) ^2 \right)  \\
+&= \exp \left( 2\sum_{i=1}^nx_{i}\bar{x}_{n} - n  \right) 
+
+\end{align}
 $$
 
 **e)**

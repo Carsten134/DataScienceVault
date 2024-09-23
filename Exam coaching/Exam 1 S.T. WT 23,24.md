@@ -1,3 +1,4 @@
+# Problem 2.1
 **a)**
 We first compute the likelihood function:
 $$
@@ -93,7 +94,7 @@ R(\hat{\theta}_{2}, \theta) &= \frac{6n \theta^2}{4(n+1)^2} + \frac{\theta^2}{(n
 &= \frac{(6n-4)\theta^2}{4(n+1)^2} \leq \frac{\theta^2}{2n} \forall n>0
 \end{align}
 $$
-# Problem 3.11
+# Problem 2.2
 **a)**
 $$
 \begin{align}
@@ -113,4 +114,59 @@ $$
 **c)**
 No because the risk increases in $b$
 
-# Problem 3.12
+# Problem 2.3
+**a)**
+NP-lemma is applied and we look at the likelihood ratio:
+$$
+\begin{align}
+LQ = \frac{\mathcal L(\vec{X}|p_{1})}{\mathcal L(\vec{X}|p_{0})} &>k \hspace{1em} \forall x\in C\\
+\frac{ \prod_{i=1}^{10} p^{x_{i}}_{1} (1-p_{1})^{1-x_{i}} }{\prod_{i=1}^{10}p_{0}^{x_{i}}(1-p_{0})^{1-x_{i}}} &>k \hspace{1em} \forall x\in C\\
+\frac{\left( p_{1}^{\sum_{i=1}^{10}x_{i}}(1-p_{1})^{10-\sum_{i=1}^{10}x_{i}} \right)}{\left( p_{0}^{\sum_{i=1}^{10}x_{i}}(1-p_{0})^{10-\sum_{i=1}^{10}x_{i}} \right)} &> k \hspace{1em} \forall x\in C \\
+\left( \frac{p_{1}}{p_{0}} \right)^{\sum_{i=1}^{10}x_{i}}\left( \frac{1-p_{1}}{1-p_{0}} \right)^{10-\sum_{i=1}^{10}x_{i}}&> k\hspace{1em} \forall x\in C \\
+\left( \frac{p_{1}}{p_{0}} \frac{1-p_{0}}{1-p_{1}} \right)^{\sum_{i=1}^{10}x_{i}}&> k \left( \frac{1-p_{0}}{1-p_{1}} \right)^{10}     \hspace{1em}\forall x\in C\\
+\sum_{i=1}^{10} x_{i} &< k^* \hspace{1em}\forall x\in C
+\end{align}\hspace{1em} 
+$$
+Because $\log_{a}(x)$ is a decreasing function for all $a<1$, the inequality shifts in the other direction.
+
+**b)**
+The size is (in this case) the probability of making a type 1 error:
+$$
+\begin{align}
+\alpha &= P(\vec{X}\in C) \\
+&= P_{p_{0}}\left(  \sum_{i=1}^{10} x_{i} \leq c_{r}-1 \right)+ P_{p_{0}}\left( \sum_{i=1}^{10} x_{i} = c_{r} \right)\gamma
+\end{align}
+$$
+we can choose $c_{r} = 6$, then:
+$$
+P\left( \sum_{i=1}^{10} x_{i} \leq c_{r}-1 \right) = P\left( \sum_{i=1}^{10} x_{i} \leq 5 \right) = 0.150
+$$
+And choose $\gamma$ such that:
+$$
+\begin{align}
+P\left( \sum_{i=1}^{10} x_{i} = 6 \right)\gamma &= \alpha - P\left( \sum_{i=1}^{10}x _{i}\leq 5 \right) \\
+0.2\gamma &= 0.2-0.15  \\
+\frac{1}{5} \gamma &= 5 \% \\
+\implies \gamma &= 5*5\% = 25\% 
+\end{align}
+$$
+
+**c)**
+Assuming 0-1 loss we can say:
+$$
+\begin{align}
+R(\phi, p) &= \begin{cases}
+P_{p_{0}}(\vec{X}\in C)  & p=p_{0} \\
+P_{p_{1}}(\vec{X}\not\in C) &p=p_{1}
+\end{cases} \\
+&= \begin{cases}
+P_{p_{0}}\left( \sum_{i=1}^{10}x_{i} \leq 6 \right)+0.56\cdot P_{p_{0}}\left( \sum_{i=1}^{10} x_{i} = 7 \right) & p=0.7 \\
+P_{p_{1}}\left( \sum_{i=1}^{10} x_{i} \geq 8 \right) &p=0.3
+\end{cases} \\
+&= \begin{cases}
+\approx 0.5 & p=0.7 \\
+\approx 0 & p=0.3
+\end{cases}
+\end{align}
+$$
+No this is not minimax, because the risk is not invariant of $p$.

@@ -1,3 +1,4 @@
+# Problem 2.1
 **a)**
 Exponential form for one parameter exponential densities:
 $$
@@ -45,7 +46,7 @@ $$
 $$
 But because we look at just the kernel for the posterior as well, it does not make a difference, because the scaling drops out anyways.
 **d)**
-Because we have quadratic loss we already know that the solution to the bayes rule is the posterior expected value:
+Because we have quadratic loss we already know that the solution to the Bayes rule is the posterior expected value:
 $$
 \begin{align}
 \arg \min_{\delta\in\mathcal D}B(\delta, g) &= \mathbb{E}(\theta|X) \\
@@ -70,7 +71,7 @@ $$
 $$
 This is different from the Bayes-rule because we are not utilizing the information from the prior. The higher $p$ the more smaller values are more common and therefore the estimation is biased downwards.
 
-# Problem 3.14
+# Problem 2.2
 **a)**
 $$
 \begin{align}
@@ -123,7 +124,7 @@ $$
 R(\delta_{\alpha_{M},\beta_{M}},\theta) &= \frac{n}{4(n-\sqrt{ n })^2}
 \end{align}
 $$
-# Problem 3.15
+# Problem 2.3
 **a)**
 To find the cdf we need to find the antiderivative of the pdf:
 $$

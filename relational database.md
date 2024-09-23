@@ -1,0 +1,1 @@
+A relational database is an implemented database, that can 

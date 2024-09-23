@@ -1,0 +1,1 @@
+A programming language is turing complete, if it can be used to do anything, a [[turing machine]] could do.

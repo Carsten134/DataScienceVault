@@ -4,7 +4,7 @@ $$
 X^{-1}(A) \in \mathcal A_{1} \forall A\in\mathcal A_{2}
 $$
 b) 
-Holds by definition of the powerset:
+Holds by definition of the power-set:
 $$
 Z^{-1}(A)\in \mathcal P(\Omega) \hspace{1em} \forall A\in\mathcal P(\Omega')
 $$
@@ -190,6 +190,7 @@ x^2 &\geq 1 \\
 x &= \pm 1
 \end{align}
 $$
+But since we only consider positive risk: $R(\delta, \theta_{1}) =R(\delta,\theta_{2}) = 1$
 # Problem 2.2
 For $\delta_{0}$ we have:
 $$
